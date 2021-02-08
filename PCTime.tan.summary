@@ -1,0 +1,46 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 37.900 ns
+From           : N3[1]
+To             : LEDDATAo[6]
+From Clock     : CLK_4MHZ
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 10.000 ns
+From           : SWITCH7D
+To             : SCAN[0]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CLK_4MHZ'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 70.42 MHz ( period = 14.200 ns )
+From           : N3[1]
+To             : lpm_counter:N2_rtl_0|dffs[3]
+From Clock     : CLK_4MHZ
+To Clock       : CLK_4MHZ
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+
